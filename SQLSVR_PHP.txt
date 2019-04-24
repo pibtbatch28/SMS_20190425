@@ -1,0 +1,16 @@
+DOWNLOAD ZIP FILE SQL SERVER FOR PHP SQLSRV561_sqlSR_forPHP.EXE THIS WILL EXTRACT A FOLDER
+IF PHP VERSION IS 7.2
+php_sqlsrv_72_ts_x86.dll
+php_pdo_sqlsrv_72_ts_x86.dll
+
+COPY THOSE MENTIONED FILES TO Xampp->PHP->EXT
+FIND extension=php_ftp.dll ON php.ini (Xampp->PHP->php.ini)OPEN WITH NOTEPADE++ OR NOTEPADE
+AFTER extension=php_ftp.dll
+PASTE BELOW
+extension=php_sqlsrv_72_ts_x86.dll
+extension=php_pdo_sqlsrv_72_ts_x86.dll
+
+SQLSERVER2012
+RESTORE DB
+SETUP CONNECTION ON DB_CONNECTION 
+TEST SYSTEM
